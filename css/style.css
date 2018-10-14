@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /*margin-left: 70px;*/
+}
+
+.font-div{
+    width: 30%;
+}
+
+/*home skills progress bar*/
+.c-progress-rating{
+    width: 60%;
+}
+
+.cpp-progress-rating{
+    width: 60%;
+}
+
+.java-progress-rating{
+    width: 80%;
+}
+
+.html-progress-rating{
+    width: 90%;
+}
+
+.css-progress-rating{
+    width: 75%;
+}
+
+.bootStrap-progress-rating{
+    width: 60%;
+}
+
+.javaScript-progress-rating{
+    width: 50%;
+}
+
+.jQuery-progress-rating{
+    width: 40%;
+}
+
+.php-progress-rating{
+    width: 70%;
+}
+
+.sql-progress-rating{
+    width: 75%;
+}
+
+
+/*Responsive*/
+
+@media only screen and (min-width: 1200px) {
+    .font-div{
+        height: 128px;!important;
+    }
+}

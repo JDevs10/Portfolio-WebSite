@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JL Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+    <body>
+<header>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-md-4">
+                <!--profile imag-->
+                <img src="imag/me.jpg" alt="Jean-Laurent">
+            </div>
+
+            <div class="col-lg-8 col-md-8">
+                <div class="d-flex flex-column">
+                    <div class="p-5 bg-dark text-white">
+                        <!--profile name and social links-->
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h1 class="display-4">Jean-Laurent DUZANT</h1>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>
+                        </div>
+                    </div>
+                    <!--presentation-->
+                    <div class="p-3 text-white bg-black">
+                        <p>Développeur Web et mobile </p>
+                    </div>
+
+                    <!--nav menu-->
+                    <div class="d-flex flex-row text-center text-white">
+                        <!--home-->
+                        <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#home">
+                            <p><i class="fa fa-home fa-2x d-block"></i> Accueil</p>
+                        </div>
+                        <!--education-->
+                        <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#resume">
+                            <p><i class="fa fa-graduation-cap fa-2x d-block"></i> Résumé</p>
+                        </div>
+                        <!--work projects-->
+                        <div class="p-4 bg-primary font-div">
+                            <p><i class="fa fa-folder fa-2x d-block"></i> Travail</p>
+                        </div>
+                        <!--contact-->
+                        <div class="p-4 bg-warning font-div">
+                            <p><i class="fa fa-envelope fa-2x d-block"></i> Contact</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <!--Home    resume of myself/my skills-->
+        <div class="collapse" id="home">
+            <div class="p-5 text-white bg-success">
+                <h2>Mon résumé</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+            </div>
+
+            <div class="card card-body">
+                <h2>Mes compétences</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet cum debitis eius error hic id, ipsam iste necessitatibus, non perferendis porro quidem quis, quisquam repellat. Iste laborum quos soluta!</p>
+
+                <h4> C </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated c-progress-rating"></div>
+                </div>
+
+                <h4> C++ </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated cpp-progress-rating"></div>
+                </div>
+
+                <h4> Java </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated java-progress-rating"></div>
+                </div>
+
+                <h4> HTML5 </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated html-progress-rating"></div>
+                </div>
+
+                <h4> CSS </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated css-progress-rating"></div>
+                </div>
+
+                <h4> BootStrap </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bootStrap-progress-rating"></div>
+                </div>
+
+                <h4> JavaScript </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated javaScript-progress-rating"></div>
+                </div>
+
+                <h4> JQuery </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated jQuery-progress-rating"></div>
+                </div>
+
+                <h4> PHP </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated php-progress-rating"></div>
+                </div>
+
+                <h4> SQL </h4>
+                <div class="progress mb-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated sql-progress-rating"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--my resume aka my education/work experience-->
+        <div class="collapse" id="resume">
+            <div class="p-5 text-white bg-danger">
+                <h2>Mon résumé</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+            </div>
+
+
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="p-5 bg-dark text-center">
+            <button class="btn"> <i class="fa fa-download fa-2x"></i> Télécharger</button>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
+</html>
