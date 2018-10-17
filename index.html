@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <title>JL Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-    <body>
+<body>
 <header>
     <div class="container">
         <div class="row no-gutters">
@@ -22,11 +22,14 @@
                 <div class="d-flex flex-column">
                     <div class="p-5 bg-dark text-white">
                         <!--profile name and social links-->
-                        <div class="d-flex flex-row justify-content-between align-items-center">
+                        <div class="d-flex flex-row justify-content-between align-items-center ">
                             <h1 class="display-4">Jean-Laurent DUZANT</h1>
-                            <i class="fa fa-linkedin"></i>
-                            <i class="fa fa-github"></i>
-                            <i class="fa fa-instagram"></i>
+                            <div class="col-lg-5">
+                                <a href="https://www.linkedin.com/in/jean-laurent-duzant-580287171/" target="_blank"><i class="fa fa-linkedin fa-2x p-3"></i></a>
+                                <a href="https://github.com/JDevs10" target="_blank"><i class="fa fa-github fa-2x p-3"></i></a>
+                                <a href="https://www.instagram.com/jeanlaurentduzant/" target="_blank"><i class="fa fa-instagram fa-2x p-3"></i></a>
+                            </div>
+
                         </div>
                     </div>
                     <!--presentation-->
@@ -37,19 +40,19 @@
                     <!--nav menu-->
                     <div class="d-flex flex-row text-center text-white">
                         <!--home-->
-                        <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#home">
+                        <div class="p-3 bg-success font-div" data-toggle="collapse" data-target="#home">
                             <p><i class="fa fa-home fa-2x d-block"></i> Accueil</p>
                         </div>
                         <!--education-->
-                        <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#resume">
+                        <div class="p-3 bg-danger font-div" data-toggle="collapse" data-target="#resume">
                             <p><i class="fa fa-graduation-cap fa-2x d-block"></i> Résumé</p>
                         </div>
                         <!--work projects-->
-                        <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#work">
+                        <div class="p-3 bg-primary font-div" data-toggle="collapse" data-target="#work">
                             <p><i class="fa fa-folder fa-2x d-block"></i> Travail</p>
                         </div>
                         <!--contact-->
-                        <div class="p-4 bg-warning font-div">
+                        <div class="p-3 bg-warning font-div">
                             <p><i class="fa fa-envelope fa-2x d-block" data-toggle="collapse" data-target="#contact"></i> Contact</p>
                         </div>
                     </div>
@@ -65,12 +68,12 @@
         <div class="collapse" id="home">
             <div class="p-5 text-white bg-success">
                 <h2>Mon résumé</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+                <p>Je suis très polyvalent et suis ouvert à la découverte. J'ai pratiqué le cyclisme durant toutes mes années de scolarité secondaire à Saint-Martin. Je pratique de la musculation, une discipline sportive qui me permet d’allier bien-être physique et mental surtout après de longues heures devant un écran.</p>
             </div>
 
             <div class="card card-body">
                 <h2>Mes compétences</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet cum debitis eius error hic id, ipsam iste necessitatibus, non perferendis porro quidem quis, quisquam repellat. Iste laborum quos soluta!</p>
+                <p></p>
 
                 <h4> C </h4>
                 <div class="progress mb-4">
@@ -128,12 +131,13 @@
         <div class="collapse" id="resume">
             <div class="p-5 text-white bg-danger">
                 <h2>Mon résumé</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+                <p>la découverte d'une voie technologique dans mes études au lycée après ma seconde à changer ma vie et ma façon observer le monde. Après le lycee la curiosité s'élève d'ou j'ai commencer la programmation avec FlowCode. J'ai fait un BTS SNIR pour découvrir l'informatique et le réseaux mais très vite je trouve ma passion pour la programmation.
+                    Développer un projet accessible à des milliers de personnes.</p>
             </div>
 
             <div class="card card-body">
                 <h2> Où j'ai étudié</h2>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi dolor esse ex minima molestias nemo suscipit vero voluptate! Aperiam dolores, esse excepturi inventore ipsum iure molestiae tenetur veniam voluptates.</P>
+                <P>Etre scolarisé aux Antilles n'est pas assez simple. <br>J'ai quitté ma famille de Saint-Martin à l'âge de 17 ans pour mes études qui était dure mais valait le coup.</P>
 
                 <div class="card-deck">
                     <div class="card text-center">
@@ -141,7 +145,7 @@
                             Bachelor Développeur Web & Mobile
                         </div>
                         <div class="card-body">
-                            <p>ECE TECH Ecole du Numérique – Groupe INSEEC</p>
+                            <a href="http://www.ecetech.fr/ecole-numerique/" target="_blank"><p>ECE TECH Ecole du Numérique – Groupe INSEEC</p></a>
                             <p class="bg-dark text-white p-2">Paris 15e</p>
                         </div>
                         <div class="card-footer"> Date: 2018 - 2019</div>
@@ -152,10 +156,10 @@
                             BTS Systèmes Numérique option Informatique et Réseaux
                         </div>
                         <div class="card-body">
-                            <p>Lycée Chevalier de Saint-Georges</p>
+                            <a href="https://chevalierdesaintgeorges.lyc.ac-guadeloupe.fr/" target="_blank"><p>Lycée Chevalier de Saint-Georges</p></a>
                             <p class="bg-dark text-white p-2">Les Abymes – Guadeloupe</p>
                         </div>
-                        <div class="card-footer"> Date: 2016 - 2018</div>
+                        <div class="card-footer"> Date: 2018</div>
                     </div>
 
                     <div class="card text-center">
@@ -163,7 +167,7 @@
                             Certification CISCO CCNA1
                         </div>
                         <div class="card-body">
-                            <p>Lycée Chevalier de Saint-Georges</p>
+                            <a href="https://chevalierdesaintgeorges.lyc.ac-guadeloupe.fr/" target="_blank"><p>Lycée Chevalier de Saint-Georges</p></a>
                             <p class="bg-dark text-white p-2">Les Abymes – Guadeloupe</p>
                         </div>
                         <div class="card-footer"> Date: 2017</div>
@@ -174,7 +178,7 @@
                             Baccalauréat Technologique STI2D SIN
                         </div>
                         <div class="card-body">
-                            <p>Lycée Raoul Georges Nicolos</p>
+                            <a href="https://lporaoulgeorgesnicolo.fr/news.php" target="_blank"><p>Lycée Raoul Georges Nicolos</p></a>
                             <p class="bg-dark text-white p-2">Basse-Terre – Guadeloupe</p>
                         </div>
                         <div class="card-footer"> Date: 2016</div>
@@ -187,40 +191,57 @@
         <!--Show my work experience and my personal work-->
         <div class="collapse" id="work">
             <div class="p-5 text-white bg-primary">
-                <h2>Mon Travail</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+                <h1>Mon Travail</h1>
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>-->
             </div>
 
             <div class="card card-body">
                 <h2>Qu'est-ce que j'ai construit</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem blanditiis cupiditate esse modi neque quis unde? Ab blanditiis delectus, dolorem itaque, iure laborum magnam nihil, obcaecati quae ullam vitae!</p>
+                <br><br>
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem blanditiis cupiditate esse modi neque quis unde? Ab blanditiis delectus, dolorem itaque, iure laborum magnam nihil, obcaecati quae ullam vitae!</p>-->
 
-                <div class="row no-gutters">
+                <div class="row">
                     <div class="col-lg-4 col-md-4">
-                        <h3>projet Angular</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aspernatur dolores eaque earum eveniet expedita fuga harum, id libero magnam minima nam numquam quisquam similique tempore tenetur. Possimus, rerum?</p>
-
+                        <h3 class="text-center"><a href="https://github.com/JDevs10/Social-Educ__Angular" target="_blank">Social Educ</a></h3>
+                        <p>Il est principalement utilisé pour les réseaux scolaires, y compris des nouvelles formations des écoles diffèrent, ces écoles affichent les formation disponibles et les étudiants affichent leurs CV et demande une candidature pour la formation X.</p>
                     </div>
 
                     <div class="col-lg-4 col-md-4">
-                        <h3>projet bts</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aspernatur dolores eaque earum eveniet expedita fuga harum, id libero magnam minima nam numquam quisquam similique tempore tenetur. Possimus, rerum?</p>
-
+                        <h3 class="text-center"><a href="https://github.com/JDevs10/MACC" target="_blank">MACC</a></h3>
+                        <p>MACC est un système peut être utilisé dans un établissement (hôtels, bureaux, écoles) disposant de nombreuses climatisations individuelles disséminée dans des pièces éparses. L’objectif est de réduire les coûts énergétiques attribué à l’oublie de l’arrêt par le personnel des systèmes de climatisations.
+                            <a href="download/Marche_Arrêt_Circuit_Climatiseurs_full.pdf" target="_blank">Vous trouvez ici un documentation complete du système en pdf.</a></p>
                     </div>
 
                     <div class="col-lg-4 col-md-4">
-                        <h3>auto savior</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aspernatur dolores eaque earum eveniet expedita fuga harum, id libero magnam minima nam numquam quisquam similique tempore tenetur. Possimus, rerum?</p>
+                        <h3 class="text-center"><a href="https://github.com/JDevs10/Auto-Savior" target="_blank">Auto Savior</a></h3>
+                        <p>Auto Savior aide à générer et à récupérer des mots de passe complexes, stockant potentiellement ces mots de passe dans une base de données cryptée locale.</p>
                     </div>
 
                     <div class="col-lg-4 col-md-4 text-center">
-                        <h3>hello</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consectetur doloremque est fuga inventore ipsa ipsam laboriosam minima mollitia nihil officiis pariatur perferendis perspiciatis possimus quis quisquam, rerum tempore? Inventore!</p>
+                        <div class="card-header text-uppercase font-bold">
+                            Stagiaire Support Technicien
+                        </div>
+                        <div class="card-body">
+                            <p><a href="http://www.e-computech.com" target="_blank">Computer Technology Center</a></p>
+                            <p>Mission : - Conception et déploiement d’un cloud privé</p>
+                            <p class="bg-dark text-white p-2"> Galisbay, Saint-Martin</p>
+                        </div>
+                        <div class="card-footer"> Date: 22 mai – 30 juin 2017</div>
                     </div>
 
-                    <div class="col-lg-4 col-md-4">
-                        <img src="imag/wallpaper.jpg" alt="">
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="card-header text-uppercase font-bold">
+                            Stagiaire Support Technicien
+                        </div>
+                        <div class="card-body">
+                            <p><a href="http://www.e-computech.com" target="_blank">Computer Technology Center</a></p>
+                            <p>Mission : - Finalisation du déploiement du cloud privé,<br>- Connexion du cloud sur Internet,<br>- Intervention chez les clients </p>
+                            <p class="bg-dark text-white p-2"> Galisbay, Saint-Martin</p>
+                        </div>
+                        <div class="card-footer"> Date: 1er juillet – 15 août 2017</div>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -229,19 +250,19 @@
         <div class="collapse" id="contact">
             <div class="p-5 text-white bg-warning">
                 <h2>Contactez moi</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut autem consequatur debitis eligendi eveniet excepturi incidunt iure laboriosam nemo officia optio quia quisquam, reprehenderit sequi, sint veniam voluptatem.</p>
+                <p>N'hésitez pas à me contacter pour toutes questions</p>
             </div>
 
             <div class="card card-body">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-8 col-12">
-                        <form action="">
+                        <form class="contactForm" method="post" action="sendMail.php" onsubmit="return checkforblank()">
                             <div class="form-group">
                                 <div class="input-group input-group-lg">
                                     <span class="input-group-addon bg-warning text-white p-3">
                                         <i class="fa fa-user"></i>
                                     </span>
-                                    <input class="from-control bg-dark text-white" type="text" name="userName" placeholder="Nom">
+                                    <input id="user_name" class="from-control bg-dark text-white" type="text" name="userName" placeholder="Nom">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -249,7 +270,7 @@
                                     <span class="input-group-addon bg-warning text-white p-3">
                                         <i class="fa fa-envelope"></i>
                                     </span>
-                                    <input class="from-control bg-dark text-white" type="text" name="userEmail" placeholder="Email">
+                                    <input id="user_email" class="from-control bg-dark text-white" type="text" name="userEmail" placeholder="Email">
                                 </div>
                             </div>
 
@@ -258,11 +279,12 @@
                                     <span class="input-group-addon bg-warning text-white p-3">
                                         <i class="fa fa-envelope"></i>
                                     </span>
-                                    <textarea class="from-control bg-dark text-white" type="text" name="userMsg" rows="4" cols="50" placeholder="Message..."></textarea>
+                                    <textarea id="user_msg" class="from-control bg-dark text-white" type="text" name="userMsg" rows="4" cols="50" placeholder="Que voulez-vous me dire..."></textarea>
                                 </div>
+                                <p class="text-danger">Si aucun message d'erreur s'affiche après "Envoyer" signifie que l'adress émail est envoyé avec succès...</p>
                             </div>
                             <!--button-->
-                            <input type="submit" name="submit" class="btn btn-danger" value="Envoyer">
+                            <input id="contact_submit" type="submit" name="submit" class="btn btn-danger" value="Envoyer">
                         </form>
                     </div>
                 </div>
@@ -274,23 +296,54 @@
 <footer>
     <div class="container">
         <div class="p-5 bg-dark text-center">
-            <button class="btn"> <i class="fa fa-download fa-2x"></i> Télécharger Mon CV</button>
+            <form method="get" action="download/CV-DUZANT_Jean-Laurent.pdf" target="_blank">
+                <button type="submit"><i class="fa fa-download fa-2x"></i> Télécharger Mon CV</button>
+            </form>
         </div>
     </div>
 </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <!--jQuery-->
-    <!--Able to switch through content(accueil, education, travail and contact) with no problem-->
-    <!--the current nav open will be close once the user clicks on an other nav and opens this one-->
-    <script type="text/javascript">
-        $('.font-div').click(function () {
-            $('.collapse').collapse('hide');
-        });
-    </script>
+<!--jQuery-->
+<!--Able to switch through content(accueil, education, travail and contact) with no problem-->
+<!--the current nav open will be close once the user clicks on an other nav and opens this one-->
+<script type="text/javascript">
+    $('.font-div').click(function () {
+        $('.collapse').collapse('hide');
+    });
+</script>
 
-    </body>
+<script>
+    $(document).ready(function(){
+        $('body').find('img[src$="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]').remove();
+    });
+</script>
+<script>
+    function checkforblank(){
+        var error = "";
+
+        if(document.getElementById("user_name").value == ""){
+            error += "Votre nom est requis\n";
+            document.getElementById("user_name").style.borderColor = "red";
+        }
+        if(document.getElementById("user_email").value == ""){
+            error += "Votre adresse email est requis\n";
+            document.getElementById("user_email").style.borderColor = "red";
+        }
+        if(document.getElementById("user_msg").value == ""){
+            error += "Votre message est requis\n";
+            document.getElementById("user_msg").style.borderColor = "red";
+        }
+        if(error != ""){
+            alert(error);
+            return false;
+        }
+    }
+</script>
+
+
+</body>
 </html>
